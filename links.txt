@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project
+
+https://stackoverflow.com/questions/30993086/pip3-command-not-found-but-python3-pip-is-already-installed
+
+https://stackoverflow.com/questions/7225900/how-to-pip-install-packages-according-to-requirements-txt-from-a-local-directory
+
+http://www.pythonforbeginners.com/basics/python-virtualenv-usage
+
+https://virtualenvwrapper.readthedocs.io/en/latest/install.html
+
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+
