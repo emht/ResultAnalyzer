@@ -13,3 +13,5 @@ http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
 # to parse data from pdf to change it into pandas tables
 https://dzone.com/articles/pdf-reading
+
+http://toplinuxapps.com/2015/05/portable-nitro-pdf-9-for-linux-works-on.html
