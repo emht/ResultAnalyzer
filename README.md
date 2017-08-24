@@ -14,7 +14,6 @@ This project can be used for the following purposes:
 ## Technologies Used:
 * Python3
 * Virtualenv to run the project
-
 * Libraries for python
   * Data Analysis
     - Numpy
@@ -22,9 +21,7 @@ This project can be used for the following purposes:
   * Data Visualisation
     - Matplotlib
     - Seaborn
-  * Pdf Parser libraries
-    -
-    -
+   * Pdf Parser libraries
 
 ## Requirements:
 All the requirements and dependencies required for the project to work on your system are written in requirements.txt.
