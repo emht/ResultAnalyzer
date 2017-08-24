@@ -11,3 +11,5 @@ https://virtualenvwrapper.readthedocs.io/en/latest/install.html
 http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
 
+# to parse data from pdf to change it into pandas tables
+https://dzone.com/articles/pdf-reading
