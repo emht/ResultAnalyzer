@@ -15,3 +15,9 @@ http://docs.python-guide.org/en/latest/dev/virtualenvs/
 https://dzone.com/articles/pdf-reading
 
 http://toplinuxapps.com/2015/05/portable-nitro-pdf-9-for-linux-works-on.html
+
+https://blog.chezo.uno/tabula-py-extract-table-from-pdf-into-python-dataframe-6c7acfa5f302
+
+https://stackoverflow.com/questions/28532770/extract-identify-tables-from-pdf-python
+
+https://www.google.co.in/search?q=parse+table+data+from+pdf+via+python&rlz=1C1CHBD_enIN756IN756&oq=parse+table+data+from+pdf+via+python&aqs=chrome..69i57.36734j0j1&sourceid=chrome&ie=UTF-8
