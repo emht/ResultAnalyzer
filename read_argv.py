@@ -1,3 +1,4 @@
+# Usage: ./read_argv.py --[min/max/mean] [filenames]
 import sys
 import numpy as np
 
@@ -19,7 +20,7 @@ def main():
         elif action == '--max':
             values = np.max(data, axis=1)
         
-        for m in np.mean(data, axis=1):
+        for m in values:
             print(m)
 
 if __name__ == "__main__":
