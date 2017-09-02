@@ -32,3 +32,6 @@ To install all these dependencies in one go, please execute the following comman
 ## Screenshots:
 
 *Note:* This project is made to learn Data Science and Data Visualisation using Python3 and is still in developing phase, so Please create an issue if you encoounter any problem.
+
+#### References:
+* https://swcarpentry.github.io/python-novice-inflammation/10-cmdline/* 
