@@ -14,7 +14,7 @@ def main():
 
     # Checking if the inputted is action is permitted or not
     assert action in ['--min', '--min', '--max'], \
-            'Action is not permitted, ,try --[mean/min/max]' + action
+            'Action is not permitted, ,try --[mean/min/max] and not ' + action
     
     # Process the file if the action is correct
     for file in filenames:
