@@ -10,25 +10,30 @@ student_table = ['S No.', 'Name', 'Enrollment No.', 'Field']
 Marks_table = ['Enrollment No.', 'Subject1', 'Subject2', 'Subject3', 'Subject4', 'Subject5', 'Subject6', 'Lab1', 'Lab2', 'Lab3', 'Lab4', 'Lab5']
 
 sno = [num for num in range(1,51)]
+
 names = []
 for name in range(0, 51):
     names.append('name' + str(name));
-enrollment = []
-for roll in range(0, 51):
-	enrollment.append("0" + str(roll + 1) + "14802715");
+
+enrollment = ["{0:03}14802715".format(i) for i in range(51)]
+# for roll in range(0, 51):
+# 	enrollment.append("0" + str(roll + 1) + "14802715");
 
 # Generating the marks for all the subjects
-Subject1 = []
-for marks in range(0, 51):
-	Subject1.append(np.random.randint(35, 100));
+Subjects = []
+for marks in range(0, 500):
+	Subjects.append(np.random.randint(35, 100));
+Subjects = np.array(Subjects).reshape(10, 50);
+
+column_names = ['Sno', 'Name', 'Enrollment No.', 'Subject1', 'Subject2', 'Subject3', 'Subject4', 'Subject5', 'Lab1', 'Lab2', 'Lab3', 'Lab4', 'Lab5']
+# data = names + enrollment + Subjects
 
 
-
-print(sno)
-print(names)
-print(enrollment)
-print(Subject1)
-
+df = pd.DataFrame(
+	{'Name': names,
+	 'Enrollment': enrollment},)
+	#  data = Subjects, index="sno", columns="column_names")
+print(df)
 
 #with open(r'test.csv', 'a') as f:
 #    writer = csv.writer(f)
