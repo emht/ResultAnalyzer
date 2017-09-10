@@ -15,7 +15,7 @@ names = []
 for name in range(0, 51):
     names.append('name' + str(name));
 
-enrollment = ["{0:03}14802715".format(i) for i in range(51)]
+enrollment = ["{0:03}10403615".format(i) for i in range(51)]
 # for roll in range(0, 51):
 # 	enrollment.append("0" + str(roll + 1) + "14802715");
 
@@ -24,17 +24,16 @@ Subjects = []
 for marks in range(0, 500):
 	Subjects.append(np.random.randint(35, 100));
 Subjects = np.array(Subjects).reshape(10, 50);
-
+sub = pd.DataFrame(data=Subjects[:,:],)
+# sub.to_csv('Subjects.csv', index=False, encoding='utf-8')
 column_names = ['Sno', 'Name', 'Enrollment No.', 'Subject1', 'Subject2', 'Subject3', 'Subject4', 'Subject5', 'Lab1', 'Lab2', 'Lab3', 'Lab4', 'Lab5']
 # data = names + enrollment + Subjects
 
-
 df = pd.DataFrame(
-	{'Name': names,
-	 'Enrollment': enrollment},)
+	{'Enrollment': enrollment},)
 	#  data = Subjects, index="sno", columns="column_names")
 print(df)
 
-#with open(r'test.csv', 'a') as f:
+# with open(r'Subject.csv', 'a') as f:
 #    writer = csv.writer(f)
-#    writer.writerow(df)
+#    writer.writerow(Subjects)
