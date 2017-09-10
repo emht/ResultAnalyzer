@@ -20,3 +20,5 @@ cse_data['Total Marks'] = total_marks
 aggregate_percent = total_marks.astype(int) / no_of_subjects
 cse_data['Aggregate Percent'] = aggregate_percent
 print(cse_data)
+
+if __init__ == "__main__":

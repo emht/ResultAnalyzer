@@ -21,10 +21,10 @@ enrollment = ["{0:03}10403615".format(i) for i in range(51)]
 
 # Generating the marks for all the subjects
 Subjects = []
-for marks in range(0, 500):
+for marks in range(0, 2500):
 	Subjects.append(np.random.randint(35, 100));
-Subjects = np.array(Subjects).reshape(10, 50);
-sub = pd.DataFrame(data=Subjects[:,:],)
+Subjects = np.array(Subjects).reshape(50, 50);
+pd.DataFrame(data=Subjects[:,:],)	#.to_csv('Subjects.csv', index=False, encoding='utf-8')
 # sub.to_csv('Subjects.csv', index=False, encoding='utf-8')
 column_names = ['Sno', 'Name', 'Enrollment No.', 'Subject1', 'Subject2', 'Subject3', 'Subject4', 'Subject5', 'Lab1', 'Lab2', 'Lab3', 'Lab4', 'Lab5']
 # data = names + enrollment + Subjects
